@@ -12,7 +12,7 @@ html{
 .section-1{
   height: 100vh;
   width: 100%;
-  background: #6060a1;
+  background: #aeaeea;
   position: relative;
   padding: 20px 100px;
 }
@@ -233,3 +233,56 @@ button:hover{
   margin-bottom: 10px;
   color: black;
 }
+
+.container-3 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: #addcf4;
+}
+
+.subject-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.subject {
+  width: calc(33.33% - 20px); /* Adjust the width for three subjects per row */
+  max-width: 250px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.subject:hover {
+  transform: scale(1.05);
+}
+
+.subject img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.subject h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+/* Adjust image size */
+.subject img {
+  max-width: 150%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+
